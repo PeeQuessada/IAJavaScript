@@ -4,7 +4,8 @@ function setup(){
 
     var nn = new RedeNeural(1,3,5);
     var arr = [1,2];
-    nn.feedforward(arr)
+    nn.feedforward(arr);
+    console.log(nn);
 }
 
 function draw(){
